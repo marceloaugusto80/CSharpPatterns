@@ -1,0 +1,17 @@
+c:\users\marcelo\source\repos\CSharpPatterns\Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+c:\users\marcelo\source\repos\CSharpPatterns\Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+c:\users\marcelo\source\repos\CSharpPatterns\Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+c:\users\marcelo\source\repos\CSharpPatterns\Tests\bin\Debug\Tests.dll
+c:\users\marcelo\source\repos\CSharpPatterns\Tests\bin\Debug\Tests.pdb
+c:\users\marcelo\source\repos\CSharpPatterns\Tests\bin\Debug\CSharpPatterns.exe
+c:\users\marcelo\source\repos\CSharpPatterns\Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+c:\users\marcelo\source\repos\CSharpPatterns\Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+c:\users\marcelo\source\repos\CSharpPatterns\Tests\bin\Debug\CSharpPatterns.pdb
+c:\users\marcelo\source\repos\CSharpPatterns\Tests\bin\Debug\CSharpPatterns.exe.config
+c:\users\marcelo\source\repos\CSharpPatterns\Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+c:\users\marcelo\source\repos\CSharpPatterns\Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+c:\users\marcelo\source\repos\CSharpPatterns\Tests\obj\Debug\Tests.csprojAssemblyReference.cache
+c:\users\marcelo\source\repos\CSharpPatterns\Tests\obj\Debug\Tests.csproj.CoreCompileInputs.cache
+c:\users\marcelo\source\repos\CSharpPatterns\Tests\obj\Debug\Tests.csproj.CopyComplete
+c:\users\marcelo\source\repos\CSharpPatterns\Tests\obj\Debug\Tests.dll
+c:\users\marcelo\source\repos\CSharpPatterns\Tests\obj\Debug\Tests.pdb

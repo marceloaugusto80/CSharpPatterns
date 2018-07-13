@@ -1,0 +1,7 @@
+c:\users\marcelo\source\repos\CSharpPatterns\CSharpPatterns\bin\Debug\CSharpPatterns.exe.config
+c:\users\marcelo\source\repos\CSharpPatterns\CSharpPatterns\bin\Debug\CSharpPatterns.exe
+c:\users\marcelo\source\repos\CSharpPatterns\CSharpPatterns\bin\Debug\CSharpPatterns.pdb
+c:\users\marcelo\source\repos\CSharpPatterns\CSharpPatterns\obj\Debug\CSharpPatterns.csprojAssemblyReference.cache
+c:\users\marcelo\source\repos\CSharpPatterns\CSharpPatterns\obj\Debug\CSharpPatterns.csproj.CoreCompileInputs.cache
+c:\users\marcelo\source\repos\CSharpPatterns\CSharpPatterns\obj\Debug\CSharpPatterns.exe
+c:\users\marcelo\source\repos\CSharpPatterns\CSharpPatterns\obj\Debug\CSharpPatterns.pdb
