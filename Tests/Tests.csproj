@@ -50,7 +50,6 @@
   <ItemGroup>
     <Compile Include="CommandTest.cs" />
     <Compile Include="FactoryTest.cs" />
-    <Compile Include="ObjectPool.cs" />
     <Compile Include="ObjectPoolTest.cs" />
     <Compile Include="ObserverTest.cs" />
     <Compile Include="Sandbox.cs" />
