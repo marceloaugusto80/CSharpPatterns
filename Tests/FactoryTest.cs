@@ -11,26 +11,25 @@ namespace Tests
     [TestClass]
     public class FactoryTest
     {
-        IFooFactory factory;
+        IVehicleFactory factory;
 
 
         [TestMethod]
-        public void FactoryHeaven()
+        public void Test()
         {
-            factory = new FactoryHeaven();
-            IFoo foo = factory.Create();
-            Assert.AreEqual(foo.Bar(), "good");
+            factory = new SimpleVehicleFactory(Terrains.AIR);
+            Assert.IsInstanceOfType(factory.Create(), typeof(Plane));
+
+            factory = new SimpleVehicleFactory(Terrains.LAND);
+            Assert.IsInstanceOfType(factory.Create(), typeof(Car));
+
+            factory = new SimpleVehicleFactory(Terrains.SEA);
+            Assert.IsInstanceOfType(factory.Create(), typeof(Ship));
+
         }
-
-
-        [TestMethod]
-        public void FactoryHell()
-        {
-            factory = new FactoryHell();
-            IFoo foo = factory.Create();
-            Assert.AreEqual(foo.Bar(), "evil");
-        }
-
-
     }
+
+
+
+
 }

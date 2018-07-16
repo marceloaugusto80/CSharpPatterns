@@ -6,58 +6,85 @@ using System.Threading.Tasks;
 
 namespace CSharpPatterns
 {
-    
 
-
-    public interface IFoo
+    public enum Terrains
     {
-        string Bar();
+        LAND,
+        SEA,
+        AIR
     }
 
-
-
-    public class FooEvil : IFoo
+    public interface IVehicle
     {
-        public string Bar()
+        void Run();
+    }
+
+    public interface IVehicleFactory
+    {
+        IVehicle Create();
+    }
+
+    //
+
+    public class Car : IVehicle
+    {
+        public void Run()
         {
-            return "evil";
+            Console.WriteLine("I'm a car! Vrummm! Vrummmm!");
         }
     }
 
 
-
-    public class FooGood : IFoo
+    public class Ship : IVehicle
     {
-        public string Bar()
+        public void Run()
         {
-            return "good";
+            Console.WriteLine("I'm a ship! Fuuuuu! Fuuuuuu!");
+        }
+    }
+
+    public class Plane : IVehicle
+    {
+        public void Run()
+        {
+            Console.WriteLine("I'm a plane! Zoommmmmmmm!");
         }
     }
 
 
-
-    public interface IFooFactory
+    public class SimpleVehicleFactory : IVehicleFactory
     {
-        IFoo Create();
-    }
+        private object _terrain;
 
-
-
-    public class FactoryHeaven : IFooFactory
-    {
-        public IFoo Create()
+        public SimpleVehicleFactory(Terrains terrain)
         {
-            return new FooGood();
+            this._terrain = terrain;
         }
-    }
 
-
-
-    public class FactoryHell : IFooFactory
-    {
-        public IFoo Create()
+        public IVehicle Create()
         {
-            return new FooEvil();
+            IVehicle vehicle;
+
+            switch (_terrain)
+            {
+                case Terrains.AIR:
+                    vehicle = new Plane();
+                    break;
+
+                case Terrains.LAND:
+                    vehicle = new Car();
+                    break;
+
+                case Terrains.SEA:
+                    vehicle = new Ship();
+                    break;
+
+                default:
+                    vehicle = null;
+                    break;
+            }
+
+            return vehicle;
         }
     }
 

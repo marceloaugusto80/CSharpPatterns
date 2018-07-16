@@ -52,6 +52,7 @@
     <Compile Include="FactoryTest.cs" />
     <Compile Include="ObjectPool.cs" />
     <Compile Include="ObjectPoolTest.cs" />
+    <Compile Include="ObserverTest.cs" />
     <Compile Include="Sandbox.cs" />
     <Compile Include="SingletonTest.cs" />
     <Compile Include="StrategyTest.cs" />

@@ -60,5 +60,18 @@ namespace Tests
             }
         }
 
+
+        [TestMethod]
+        public void EqualsTest()
+        {
+            Foo foo1 = new Foo();
+            Foo foo2 = new Foo();
+
+            Assert.IsTrue(foo1.Equals(foo1));
+            Assert.IsTrue(foo1 == foo1);
+            Assert.IsFalse(foo1 == foo2);
+            Assert.IsTrue("foo".Equals("foo"));
+            Assert.IsTrue(new String(new char[] { 'f', 'o', 'o' }).Equals(new String(new char[] { 'f', 'o', 'o' })));
+        }
     }
 }

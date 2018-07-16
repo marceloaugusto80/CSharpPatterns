@@ -30,7 +30,7 @@ namespace Tests
     [TestClass]
     public class ObjectPoolTest
     {
-        private int count = int.MaxValue / 1000;
+        private int count = 100;
         [TestMethod]
         public void ObjectPool()
         {
