@@ -1,4 +1,4 @@
-packages
-TestResults
-**/bin
-**/obj
+packages/
+TestResults/
+**/bin/
+**/obj/
